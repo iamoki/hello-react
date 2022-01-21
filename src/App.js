@@ -5,7 +5,7 @@ function App() {
     <Fragment>
       <h1>리액트 안녕!</h1>
       <h2>잘 작동하니????</h2>
-      <h3>화이팅팅팅</h3>
+      <h3>깃 푸쉬 다시 테스트</h3>
       
     </Fragment>
   );
