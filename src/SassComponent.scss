@@ -1,0 +1,20 @@
+$orange: orange;
+$blue: blue;
+$white: white;
+
+@mixin wh($w,$h) {
+    width: $w;
+    height: $h;
+}
+
+.btn {
+    @include wh(100px, 50px);
+    color: $white;
+    border: none;
+    &.orange {
+        background-color: $orange;
+    }
+    &.blue {
+        background-color: $blue;
+    }
+}
